@@ -1,0 +1,39 @@
+{
+  "active": false,
+  "adult": false,
+  "newest": {
+    "child": {
+      "action": "videos",
+      "label": "Novedades",
+      "content_type": "movies",
+      "url": "http://www.pelispekes.com"
+    }
+  },
+  "search": {
+    "child": {
+      "action": "search",
+      "content_type": "movies"
+    }
+  },
+  "categories": [
+    "child"
+  ],
+  "changes": [
+    {
+      "date": "09/08/2018",
+      "description": "Desactivar canal: web caida"
+    },
+    {
+      "date": "18/09/2017",
+      "description": "Primera version"
+    }
+  ],
+  "id": "pelispekes",
+  "min_version": {
+    "main": null,
+    "python": null
+  },
+  "name": "PelisPekes",
+  "settings": [],
+  "version": 2
+}

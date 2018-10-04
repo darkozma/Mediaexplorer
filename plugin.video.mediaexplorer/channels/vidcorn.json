@@ -1,0 +1,84 @@
+{
+    "active": true,
+    "adult": false,
+    "categories": [
+        "movie",
+        "tvshow"
+    ],
+    "changes": [
+        {
+            "date": "12/07/2018",
+            "description": "Captcha"
+        },
+        {
+            "date": "13/06/2018",
+            "description": "Cambios en la web"
+        },
+        {
+            "date": "28/04/2018",
+            "description": "Normalizar url servidores"
+        },
+        {
+            "date": "11/03/2018",
+            "description": "Enlaces reparados"
+        },
+        {
+            "date": "08/02/2018",
+            "description": "Primera versión"
+        }
+    ],
+    "id": "vidcorn",
+    "min_version": {
+        "main": "1.0.2",
+        "python": "2.7.9"
+    },
+    "name": "Vidcorn",
+    "search": {
+        "movie": {
+          "action": "listado",
+          "content_type": "movies",
+          "page": 0,
+          "order_by": 8
+        },
+        "tvshow": {
+          "action": "listado",
+          "content_type": "tvshows",
+          "page": 0,
+          "order_by": 8
+        }
+    },
+    "newest": {
+        "movie": {
+          "action": "listado",
+          "order_by": 8,
+          "page":0,
+          "content_type": "movies"
+        },
+        "tvshow": {
+          "action": "listado",
+          "order_by": 8,
+          "page":0,
+          "content_type": "tvshows"
+        }
+    },
+    "settings": [
+        {
+          "default": "",
+          "enabled": true,
+          "id": "user",
+          "label": "Usuario:",
+          "type": "text",
+          "visible": true
+        },
+        {
+          "default": "",
+          "enabled": true,
+          "hidden": true,
+          "id": "password",
+          "label": "Contraseña:",
+          "type": "text",
+          "visible": true
+        }
+    ],
+    "version": 5
+}

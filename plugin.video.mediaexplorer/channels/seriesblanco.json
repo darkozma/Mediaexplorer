@@ -1,0 +1,49 @@
+{
+    "active": false,
+    "adult": false,
+    "categories": [
+        "tvshow"
+    ],
+    "changes": [
+        {
+            "date": "13/08/2018",
+            "description": "Desactivar canal: web caida"
+        },
+        {
+            "date": "10/07/2018",
+            "description": "Cambio de dominio"
+        },
+        {
+            "date": "28/04/2018",
+            "description": "Normalizar url servidores"
+        },
+        {
+            "date": "10/04/2018",
+            "description": "Cambios en la web"
+        },
+        {
+            "date": "28/10/2017",
+            "description": "Primera versión"
+        }
+    ],
+    "id": "seriesblanco",
+    "min_version": {
+        "main": "1.0.1",
+        "python": "2.7.9"
+    },
+    "name": "SeriesBlanco",
+    "search": {
+        "tvshow":{
+            "action": "tv_search",
+            "content": "tvshows"
+        }
+    },
+    "newest": {
+        "episode":{
+          "action": "newest_episodes",
+          "content_type": "episodes"
+        }
+    },
+    "settings": [],
+    "version": 5
+}

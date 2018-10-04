@@ -1,0 +1,58 @@
+{
+  "active": true,
+  "adult": false,
+  "categories": [
+    "movie",
+    "tvshow"
+  ],
+  "changes": [
+    {
+        "date": "12/09/2018",
+        "description": "Nuevas calidades."
+    },
+    {
+      "date": "05/09/2018",
+      "description": "Filtrados enlaces no válidos"
+    },
+    {
+      "date": "12/07/2018",
+      "description": "Añadida la sección de Series"
+    },
+    {
+      "date": "10/04/2018",
+      "description": "Descartada la sección de Series"
+    },
+    {
+      "date": "13/11/2017",
+      "description": "Primera versión"
+    }
+  ],
+  "id": "gnula",
+  "min_version": {
+    "main": "1.0.2",
+    "python": "2.7.9"
+  },
+  "name": "GNula",
+  "search": {
+    "movie":{
+      "action": "movie_search",
+      "content_type": "movies"
+    },
+    "tvshow":{
+      "action": "tv_search",
+      "content_type": "tvshows"
+    }
+  },
+  "newest": {
+    "movie": {
+      "action": "newest",
+      "content_type": "movies"
+    },
+    "episode": {
+      "action": "newest_episodes",
+      "content_type": "episodes"
+    }
+  },
+  "settings": [],
+  "version": 5
+}

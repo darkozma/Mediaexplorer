@@ -1,0 +1,23 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "29/01/2018",
+      "description": "Primera version"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "https://drive.google.com/(?:file/d/|uc\\?id=)([^/&]+)",
+        "url": "https://drive.google.com/uc?export=download&id=\\1"
+      }
+    ]
+  },
+  "free": true,
+  "id": "googledrive",
+  "name": "GoogleDrive",
+  "settings": [],
+  "version": 1
+}

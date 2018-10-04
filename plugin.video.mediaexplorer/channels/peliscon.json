@@ -1,0 +1,71 @@
+{
+    "active": false,
+    "adult": false,
+    "categories": [
+        "movie",
+        "tvshow"
+    ],
+    "changes": [
+        {
+            "date": "09/08/2018",
+            "description": "Desactivar canal: web caida"
+        },
+        {
+            "date": "28/04/2018",
+            "description": "Normalizar url servidores"
+        },
+        {
+            "date": "30/03/2018",
+            "description": "Cambios en la web"
+        },
+        {
+            "date": "24/02/2018",
+            "description": "Fijar nombre de series en nuevos episodios"
+        },
+        {
+            "date": "02/02/2018",
+            "description": "Fix identificación de idiomas"
+        },
+        {
+            "date": "24/01/2018",
+            "description": "Primera versión"
+        }
+    ],
+    "id": "peliscon",
+    "min_version": {
+        "main": null,
+        "python": null
+    },
+    "name": "Peliscon",
+    "search": {
+        "movie": {
+          "action": "search",
+          "url": "http://peliscon.com/peliculas/",
+          "content_type": "movies"
+        },
+        "tvshow": {
+          "action": "search",
+          "url": "http://peliscon.com/series/",
+          "content_type": "tvshows"
+        }
+    },
+    "newest": {
+        "movie": {
+          "action": "contents",
+          "url": "http://peliscon.com/peliculas/",
+          "content_type": "movies"
+        },
+        "tvshow": {
+          "action": "contents",
+          "url": "http://peliscon.com/series/",
+          "content_type": "tvshows"
+        },
+        "episode":{
+          "action": "newest_episodes",
+          "url": "http://peliscon.com/episodios/",
+          "content_type": "episodes"
+        }
+    },
+      "settings": [],
+      "version": 6
+}

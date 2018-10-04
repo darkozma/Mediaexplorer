@@ -1,0 +1,39 @@
+{
+    "active": true,
+    "adult": false,
+    "categories": [
+        "tvshow"
+    ],
+    "changes": [
+        {
+            "date": "18/04/2018",
+            "description": "Primera versión"
+        }
+    ],
+    "id": "inkaseries",
+    "min_version": {
+        "main": null,
+        "python": "2.7.9"
+    },
+    "name": "Inkaseries",
+    "search": {
+        "tvshow": {
+          "action": "search",
+          "content_type": "tvshows"
+        }
+    },
+    "newest": {
+        "tvshow": {
+          "action": "tvshows",
+          "url": "https://www.inkaseries.net/ultimas-series-agregadas/",
+          "content_type": "tvshows"
+        },
+        "episode":{
+          "action": "newest_episodes",
+          "url": "https://www.inkaseries.net/ultimos-capitulos-agregados/",
+          "content_type": "episodes"
+        }
+    },
+    "settings": [],
+    "version": 1
+}

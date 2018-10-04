@@ -1,0 +1,29 @@
+{
+    "active": true,
+    "adult": true,
+    "categories": ["adult"],
+    "changes": [
+        {
+            "date": "26/08/2018",
+            "description": "Quitar categorias en mayusculas"
+        },
+        {
+            "date": "24/02/2018",
+            "description": "Primera versión"
+        }
+    ],
+    "id": "cumlouder",
+    "min_version": {
+        "main": null,
+        "python": "2.7.9"
+    },
+    "name": "CumLouder",
+    "search": {
+        "adult": {
+          "action": "search",
+          "content_type": "videos"
+        }
+    },
+    "settings": [],
+    "version": 2
+}

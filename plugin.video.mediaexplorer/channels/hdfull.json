@@ -1,0 +1,103 @@
+{
+  "active": true,
+  "adult": false,
+  "categories": [
+    "movie",
+    "tvshow"
+  ],
+  "changes": [
+    {
+      "date": "25/09/2018",
+      "description": "Reparación por cambios en la web"
+    },
+    {
+      "date": "26/05/2018",
+      "description": "Reparación por cambios en la web"
+    },
+    {
+      "date": "25/04/2018",
+      "description": "Reparación por cambios en la web"
+    },
+    {
+      "date": "29/01/2018",
+      "description": "Permitir el elegir entre http y https para saltarse el bloque de vodafone"
+    },
+    {
+      "date": "19/01/2018",
+      "description": "Reparación por cambios en la web"
+    },
+    {
+      "date": "31/08/2017",
+      "description": "Primera versión"
+    }
+  ],
+  "id": "hdfull",
+  "min_version": {
+    "main": null,
+    "python": null
+  },
+  "name": "HDFull",
+  "search": {
+    "movie":{
+      "action": "movie_search",
+      "content_type": "movies"
+    },
+    "tvshow": {
+      "action": "tv_search",
+      "content_type": "tvshows"
+    }
+  },
+  "newest": {
+    "movie": {
+      "action": "movies",
+      "url": "http://hdfull.tv/peliculas-actualizadas",
+      "content_type": "movies"
+    },
+    "tvshow": {
+      "action": "tvshows",
+      "url": "http://hdfull.tv/series",
+      "content_type": "tvshows"
+    },
+    "episode":{
+      "action": "newest_episodes",
+      "url": "http://hdfull.tv/series/episodio",
+      "content_type": "episodes"
+    }
+  },
+  "settings": [
+    {
+      "default": 3,
+      "id": "host",
+      "label": "Usar el siguiente dominio",
+      "type": "list",
+      "lvalues": [
+        "http://hdfull.tv",
+        "https://hdfull.tv",
+        "http://hdfull.me",
+        "https://hdfull.me"
+      ]
+    },
+    {
+      "default": false,
+      "id": "account",
+      "label": "Activar cuenta de usuario",
+      "type": "bool"
+    },
+    {
+      "default": "",
+      "enabled": "eq(-1,true)",
+      "id": "user",
+      "label": "Usuario",
+      "type": "text"
+    },
+    {
+      "default": "",
+      "enabled": "eq(-2,true)",
+      "hidden": true,
+      "id": "password",
+      "label": "Contrase\u00f1a",
+      "type": "text"
+    }
+  ],
+  "version": 6
+}

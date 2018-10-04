@@ -1,0 +1,55 @@
+{
+    "active": true,
+    "adult": false,
+    "categories": [
+        "movie",
+        "tvshow"
+    ],
+    "changes": [
+        {
+            "date": "31/01/2018",
+            "description": "Reparar bug"
+        },
+        {
+            "date": "08/10/2017",
+            "description": "Primera versión"
+        }
+    ],
+    "id": "wopelis",
+    "min_version": {
+        "main": null,
+        "python": null
+    },
+    "name": "Wopelis",
+    "search": {
+        "movie":{
+          "action": "movie_search",
+          "url": "http://www.wopelis.com/galep.php?solo=cenlaces&empen=0",
+          "content_type": "movies"
+        },
+        "tvshow": {
+          "action": "tv_search",
+          "url": "http://www.wopelis.com//gales.php?empen=0&ord=popu",
+          "content_type": "tvshows"
+        }
+    },
+    "newest": {
+        "movie": {
+          "action": "movies",
+          "url": "http://www.wopelis.com/galep.php?solo=cenlaces&empen=0&ord=recie",
+          "content_type": "movies"
+        },
+        "tvshow": {
+          "action": "tvshows",
+          "url": "http://www.wopelis.com/gales.php?empen=0",
+          "content_type": "tvshows"
+        },
+        "episode":{
+          "action": "tvshows",
+          "url": "http://www.wopelis.com/gales.php?empen=0&ord=reci",
+          "content_type": "episodes"
+        }
+    },
+    "settings": [],
+    "version": 2
+}

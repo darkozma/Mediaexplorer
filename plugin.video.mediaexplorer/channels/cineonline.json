@@ -1,0 +1,53 @@
+{
+    "active": true,
+    "adult": false,
+    "categories": [
+        "movie",
+        "tvshow",
+        "adult"
+    ],
+    "changes": [
+        {
+            "date": "11/09/2018",
+            "description": "Añadido servidor Mega y corregido enlaces protegidos"
+        },
+        {
+            "date": "08/01/2018",
+            "description": "Primera versión"
+        }
+    ],
+    "id": "cineonline",
+    "min_version": {
+        "main": null,
+        "python": "2.7.9"
+    },
+    "name": "Cine-Online",
+    "newest": {
+        "movie": {
+          "action": "contents",
+          "url": "https://www.cine-online.eu/tag/castellano/",
+          "content_type": "movies"
+        },
+        "episode":{
+            "action": "newest_episodes",
+            "url": "https://www.cine-online.eu/episodios/",
+            "content_type": "episodes"
+        }
+    },
+    "search": {
+        "movie": {
+          "action": "movie_search",
+          "content_type": "movies"
+        },
+        "tvshow": {
+          "action": "tv_search",
+          "content_type": "tvshows"
+        },
+        "adult": {
+          "action": "adult_search",
+          "content_type": "videos"
+        }
+    },
+    "settings": [],
+    "version": 2
+}

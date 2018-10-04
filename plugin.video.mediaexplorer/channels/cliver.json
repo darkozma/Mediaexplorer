@@ -1,0 +1,44 @@
+{
+    "active": true,
+    "adult": false,
+    "categories": [
+        "movie",
+        "tvshow"
+    ],
+    "changes": [
+        {
+            "date": "23/02/18",
+            "description": "Primera versión"
+        }
+    ],
+    "id": "cliver",
+    "min_version": {
+        "main": null,
+        "python": null
+    },
+    "name": "Cliver",
+    "search": {
+        "movie": {
+          "action": "search_movies",
+          "content_type": "movies"
+        },
+        "tvshow": {
+          "action": "search_tv",
+          "content_type": "tvshows"
+        }
+    },
+    "newest": {
+        "movie": {
+          "action": "contents",
+          "url": "http://www.cliver.tv",
+          "content_type": "movies"
+        },
+        "episode":{
+          "action": "newest_episodes",
+          "url": "http://www.cliver.tv/series/nuevos-capitulos/",
+          "content_type": "episodes"
+        }
+    },
+    "settings": [],
+    "version": 1
+}

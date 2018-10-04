@@ -1,0 +1,57 @@
+{
+    "active": true,
+    "adult": false,
+    "categories": [
+        "movie"
+    ],
+    "changes": [
+        {
+            "date": "18/08/2018",
+            "description": "Mejorado filtrado por idiomas."
+        },
+        {
+            "date": "17/08/2018",
+            "description": "Añadido filtrado por idiomas."
+        },
+        {
+            "date": "16/08/2018",
+            "description": "Corregidos servidores y secciones que no funcionaban."
+        },
+        {
+            "date": "15/08/2018",
+            "description": "Corregido error al obtener los servidores."
+        },
+		{
+            "date": "05/06/2018",
+            "description": "Reactivada la sección Buscar."
+        },
+        {
+            "date": "04/06/2018",
+            "description": "Cambio de dominio. Desactivada la sección Buscar temporalmente."
+        },
+        {
+            "date": "15/02/2018",
+            "description": "Primera versión"
+        }
+    ],
+    "id": "pelis24",
+    "min_version": {
+        "main": null,
+        "python": null
+    },
+    "name": "Pelis24",
+    "newest": {
+        "movie": {
+          "action": "newest",
+          "content_type": "movies"
+        }
+    },
+    "search": {
+        "movie": {
+          "action": "search",
+          "content_type": "movies"
+        }
+    },
+    "settings": [],
+    "version": 7
+}

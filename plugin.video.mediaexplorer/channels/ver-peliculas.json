@@ -1,0 +1,50 @@
+{
+    "active": true,
+    "adult": false,
+    "categories": [
+        "movie"
+    ],
+    "changes": [
+        {
+            "date": "08/08/2018",
+            "description": "Cambios en la web"
+        },
+        {
+            "date": "04/07/2018",
+            "description": "Cambios en la web"
+        },
+        {
+            "date": "12/05/2018",
+            "description": "Identificar correctamente nuevas calidades e idiomas de la web"
+        },
+        {
+            "date": "28/04/2018",
+            "description": "Normalizar url servidores"
+        },
+        {
+            "date": "13/04/2018",
+            "description": "Primera versión"
+        }
+    ],
+    "id": "ver-peliculas",
+    "min_version": {
+        "main": null,
+        "python": null
+    },
+    "name": "Ver-Peliculas",
+    "search": {
+        "movie": {
+          "action": "search",
+          "content_type": "movies"
+        }
+    },
+    "newest": {
+        "movie": {
+          "action": "movies",
+          "url": "http://ver-peliculas.io/peliculas/",
+          "content_type": "movies"
+        }
+    },
+    "settings": [],
+    "version": 5
+}

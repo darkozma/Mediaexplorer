@@ -1,0 +1,45 @@
+{
+    "active": true,
+    "adult": false,
+    "categories": [
+        "movie"
+    ],
+    "changes": [
+        {
+            "date": "12/09/2018",
+            "description": "Nuevas calidades."
+        },
+        {
+            "date": "18/08/2018",
+            "description": "Mejorado filtrado por idiomas."
+        },
+        {
+            "date": "17/08/2018",
+            "description": "Añadido contenido"
+        },
+        {
+            "date": "15/08/2018",
+            "description": "Primera versión"
+        }
+    ],
+    "id": "repelis",
+    "min_version": {
+        "main": null,
+        "python": null
+    },
+    "name": "Repelis",
+    "newest": {
+        "movie": {
+          "action": "movies",
+          "content_type": "movies"
+        }
+    },
+    "search": {
+        "movie": {
+          "action": "search",
+          "content_type": "movies"
+        }
+    },
+    "settings": [],
+    "version": 4
+}

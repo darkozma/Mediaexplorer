@@ -1,0 +1,25 @@
+{
+  "settings": [
+    {
+      "label": "Cuenta en https://anti-captcha.com",
+      "type": "label"
+    },
+    {
+      "type": "label",
+      "label": "eval('Saldo disponible: ' + str(__import__('core.anticaptcha').anticaptcha.get_balance()))"
+    },
+    {
+      "id": "user",
+      "label": "Nombre de usuario:",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "password",
+      "label": "Contraseña:",
+      "type": "text",
+      "hidden": true,
+      "default": ""
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+    "active": true,
+    "adult": false,
+    "categories": [
+        "tvshow"
+    ],
+    "changes": [
+        {
+            "date": "14/05/2018",
+            "description": "Añadida sección Nuevas Series"
+        },
+		{
+            "date": "07/05/2018",
+            "description": "Corregir títulos en Episodios de estreno..."
+        },
+        {
+            "date": "26/04/2018",
+            "description": "Primera versión"
+        }
+    ],
+    "id": "seriespapaya",
+    "min_version": {
+        "main": null,
+        "python": null
+    },
+    "name": "SeriesPapaya",
+    "search": {
+        "tvshow": {
+          "action": "search",
+          "content_type": "tvshows"
+        }
+    },
+    "newest": {
+        "tvshow": {
+          "action": "newest_tvshows",
+          "url": "http://www.seriespapaya.com",
+          "content_type": "tvshows"
+        },
+        "episode":{
+          "action": "newest_episodes",
+          "url": "http://www.seriespapaya.com",
+          "content_type": "episodes"
+        }
+    },
+    "settings": [],
+    "version": 3
+}
