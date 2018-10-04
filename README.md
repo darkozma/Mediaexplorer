@@ -14,7 +14,7 @@
 
 	5.- If this type of content is prohibited in your country, only you are responsible for the use of MediaExplorer.
 
-## [/Disclaimer]
+
 
 
 
